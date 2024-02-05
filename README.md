@@ -1,5 +1,3 @@
-# Stock-Price-forecasting
-
 <div align='center'><font size="5" color='#353B47'>Predicting Stock Prices</font></div>
 <div align='center'><font size="4" color="#353B47">How to use LSTMs</font></div>
 <br>
@@ -1245,41 +1243,6 @@ print(f"real: {real_data_vis[0][0]}")
     1/1 [==============================] - 0s 47ms/step
     Prediction: 29.84441375732422
     real: 31.96999931335449
-    
-
-
-```python
-prediction
-```
-
-
-
-
-    array([[29.844414]], dtype=float32)
-
-
-
-
-```python
-real_data_vis = scaler.inverse_transform(real_data[0])
-
-real_data_vis[0][0]
-```
-
-
-
-
-    31.96999931335449
-
-
-
-
-```python
-print(f"real: {real_data[0][0]}")
-
-```
-
-    real: [0.76405277]
     
 
 # References
